@@ -568,7 +568,7 @@ def doRequest(uri, args, type, success) {
 
 def login(method = null, args = [], success = {}) {
 	def params = [
-		uri: 'https://home.nest.com/user/login',
+		uri: 'https://home.ft.nest.com/user/login',
 		body: [username: settings.username, password: settings.password]
 	]
 
